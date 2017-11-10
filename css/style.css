@@ -486,7 +486,7 @@ p.sub-text.one {
 }
 .ab-w3-agile-part {
     padding: 0;
-      background:#000 url(../images/product_1.jpg) no-repeat 0px 0px;
+      background:#000 url(../images/product_2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -496,7 +496,7 @@ p.sub-text.one {
       padding: 7em 3em;
 }
 .ab-w3-agile-part:nth-child(2) {
-	      background:#000 url(../images/product_2.jpg) no-repeat 0px 0px;
+	      background:#000 url(../images/product_1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

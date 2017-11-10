@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 17.057640, lng: 73.577000};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru,
+		  mapTypeId: 'satellite'
+        });
+       var contentString = '<div id="content">'+
+            '<b>Mane Farm 1</b><br/>'+
+            'Cashew and Mango Farm spread in wide area'+
+            '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          title: 'Mane Farm 1'
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+      }
+    </script>
+	 <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASOwf_BfbGcZpDZdErW6BsmfJ_PfVoTEc&libraries=places&callback=initMap">
+    </script>
+<!--
+    <script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASOwf_BfbGcZpDZdErW6BsmfJ_PfVoTEc&callback=initMap">
+    </script>
+-->
+  </body>
+</html>
