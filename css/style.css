@@ -163,9 +163,9 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     color: #f90;
     font-size: 1em;
     line-height: 1.8em;
-    letter-spacing: 11px;
+    letter-spacing: 4px;
     margin: 2em auto;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
 }
 .agileits_w3layouts_more{
@@ -479,7 +479,7 @@ p.sub-text.one {
 }
 .ab-w3-agile-info p {
     font-size:1em;
-    letter-spacing:2px;
+    letter-spacing:1.12px;
     color: #777;
 	margin:1em 0;
 	line-height:2em;
@@ -859,7 +859,7 @@ figure {
 /*-- //services --*/
 /*-- services-bottom --*/
 .services-bottom {
-    background: url(../images/5.jpg) no-repeat 0px 0px;
+    background: url(../images/3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
